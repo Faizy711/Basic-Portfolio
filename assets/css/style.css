@@ -1,0 +1,33 @@
+div{
+    padding: 100px;
+}
+body{
+    margin: auto;
+}
+nav{
+    float: right;
+}
+ul {
+    list-style-type: none;
+    width: 20%;
+    height: 75px;
+    padding: 20px;
+} 
+li a {
+    display: block;
+}
+
+header{
+    width: 20%;
+    height: 75px;
+    padding: 20px;
+    background: #4aaaa5;
+    position: relative;
+    Top: 0;
+    left: 20px;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 100%;
+    background: #c0c0c0;
+}
