@@ -57,7 +57,7 @@ aside{
 
 header{
     width: 20%;
-    height: 75px;
+    height: 80px;
     background: #4aaaa5;
     display: block;
     position: absolute;
@@ -65,8 +65,8 @@ header{
     Top: 0;
     left: 100px;
     text-align: center;
-    font-size: 25px;
-    padding-top: 20px;
+    font-size: 30px;
+    padding-top: 15px;
     color: ivory;
     font-family: Blonde;
     
@@ -75,7 +75,7 @@ header{
 .teal_header{
     border-bottom: 1px solid rgba(100, 100, 100, 0.39);
     margin: 10px;
-    padding-bottom: 10px;
+    padding: 10px;
     font-size: 35px;
     font-family: 'Faster One', cursive;
     color: #4aaaa5;
@@ -91,10 +91,10 @@ header{
 .wrapper2{
     width: 300px;
     background: #eee;
-    padding: 10px;
+    padding: 15px;
     position: absolute;
     right: 0;
-    top: 138px;
+    top: 145px;
     margin-right: 275px;
 
 }
@@ -116,6 +116,10 @@ header{
     margin-top: 50px;
 
 }
+input, textarea{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 
 .portfolio{
     width: 650px;
@@ -123,8 +127,6 @@ header{
     padding: 10px;
     margin-left: 100px;
     margin-top: 50px;
-    text-align: center;
-
 }
 
 .connect{
@@ -196,6 +198,7 @@ header{
 form, p, img{
     margin: 10px;
     font-size: 18px;
+    color: #666;
 }
 
 input:focus { 
@@ -215,5 +218,80 @@ input:focus {
     background: #4aaaa5;
 
 }
+
+#red{
+    color: rgb(156, 0, 0);
+}
+
+#profile{
+    float: left;
+    margin: 10px;
+}
+
+h2{
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    /* flex-wrap: wrap; */
+    padding: 5px;
+  }
+.column {
+    flex: 33.3%;
+    padding: 5px;
+    column-count: 3;
+}
+
+
+.container {
+    position: relative;
+    margin: 10px;
+}
+
+#first_container{
+    top: -10px;
+}
+
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+.image_button {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  
+.container:hover .image {
+    opacity: 0.3;
+  }
+  
+.container:hover .image_button {
+    opacity: 1;
+  }
+  
+.text {
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+  .white{
+      color: #eee;
+  }
+  
+
 
 
