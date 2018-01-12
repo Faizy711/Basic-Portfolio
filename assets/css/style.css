@@ -1,33 +1,193 @@
 div{
-    padding: 100px;
+    margin: 0 auto;
 }
 body{
     margin: auto;
 }
 nav{
-    float: right;
+    width: 100%;
+    height: 75px;
+    background: #eee;
 }
+.buttons{
+    
+    padding: 10px;
+    display: block;
+    border-left: 1px solid #666;
+    float: right;
+    background: #eee;
+    
+}
+
 ul {
     list-style-type: none;
-    width: 20%;
-    height: 75px;
     padding: 20px;
+    padding-right: 300px;
 } 
 li a {
+    padding: 10px;
     display: block;
+    float: right;
+    background: #eee;
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.logos{
+    position: absolute;
+    padding: 10px;
+    display: block;
+    float: right;
+    background: #eee;
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+    
+}
+
+aside{
+    float: right;
+    margin-right: 20%;
 }
 
 header{
     width: 20%;
-    height: 75px;
-    padding: 20px;
+    height: 60px;
     background: #4aaaa5;
-    position: relative;
+    display: block;
+    position: absolute;
+    z-index: 1;
     Top: 0;
-    left: 20px;
+    left: 100px;
+    text-align: center;
+    font-size: 30px;
+    color: ivory;
+    padding-top: 15px;
+}
+
+.teal_header{
+    border-bottom: 1px solid rgba(100, 100, 100, 0.39);
+    margin: 10px;
+    padding-bottom: 10px;
+    color: #4aaaa5;
+    font-size: 30px;
 }
 .wrapper{
-    margin: 0 auto;
     width: 100%;
+    height: 1000px;
     background: #c0c0c0;
+    border: 1px solid #666;
+    
 }
+
+.wrapper2{
+    width: 300px;
+    background: #eee;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    top: 138px;
+    margin-right: 275px;
+
+}
+
+.about_me{
+    width: 650px;
+    background: #eee;
+    padding: 10px;
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+
+.contact_me{
+    width: 650px;
+    background: #eee;
+    padding: 10px;
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+
+.portfolio{
+    width: 650px;
+    background: #eee;
+    padding: 10px;
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+
+.connect{
+    width: 270px;
+    background: #eee;
+    padding: 10px;
+    margin: auto;
+}
+
+.footer{
+    padding-top: 30px;
+    width:100%;
+    height: 75px;
+    background: #666;
+    text-align: center;
+    color: #eee;
+    position: fixed;
+    bottom: 0;
+}
+
+.top_logo_border{
+    width:100%;
+    height: 15px;
+    background: #4aaaa5;
+    position: absolute;
+    top: 0;
+}
+
+.box-name{
+    
+    width:100%;
+    border: 1px solid #666;
+    margin: auto;
+
+}
+.box-email{
+    padding: 20px;
+    width:100%;
+    border: 1px solid #666;
+    margin: auto;
+}
+
+.box-message{
+    padding: 20px;
+    width:100%;
+    height:150px;
+    border: 1px solid #666;
+    margin: auto;
+}
+
+.box-submit{
+    padding: 20px;
+    width: 150px;
+    height: 20px;
+    background: #4aaaa5;
+    color: #cccccc;
+    position: relative;
+}
+
+.box-submit:hover{
+    padding: 20px;
+    width: 150px;
+    height: 20px;
+    background: #4aaaa57e;
+    color: #cccccc;
+}
+
+form, p, img{
+    margin: 10px;
+}
+
