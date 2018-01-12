@@ -6,7 +6,7 @@ body{
 }
 nav{
     width: 100%;
-    height: 75px;
+    height: 95px;
     background: #eee;
 }
 .buttons{
@@ -16,6 +16,7 @@ nav{
     border-left: 1px solid #666;
     float: right;
     background: #eee;
+    font-family: Blonde;
     
 }
 
@@ -30,7 +31,7 @@ li a {
     float: right;
     background: #eee;
     text-decoration: none;
-    color: rgb(34, 34, 34);
+    color: #4d4d4d;
 }
 
 li a:hover {
@@ -56,7 +57,7 @@ aside{
 
 header{
     width: 20%;
-    height: 60px;
+    height: 75px;
     background: #4aaaa5;
     display: block;
     position: absolute;
@@ -64,17 +65,20 @@ header{
     Top: 0;
     left: 100px;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
+    padding-top: 20px;
     color: ivory;
-    padding-top: 15px;
+    font-family: Blonde;
+    
 }
 
 .teal_header{
     border-bottom: 1px solid rgba(100, 100, 100, 0.39);
     margin: 10px;
     padding-bottom: 10px;
+    font-size: 35px;
+    font-family: 'Faster One', cursive;
     color: #4aaaa5;
-    font-size: 30px;
 }
 .wrapper{
     width: 100%;
@@ -119,6 +123,7 @@ header{
     padding: 10px;
     margin-left: 100px;
     margin-top: 50px;
+    text-align: center;
 
 }
 
@@ -133,11 +138,12 @@ header{
     padding-top: 30px;
     width:100%;
     height: 75px;
-    background: #666;
+    background: #4d4d4d;
     text-align: center;
     color: #eee;
     position: fixed;
     bottom: 0;
+    
 }
 
 .top_logo_border{
@@ -189,5 +195,25 @@ header{
 
 form, p, img{
     margin: 10px;
+    font-size: 18px;
 }
+
+input:focus { 
+    background-color: white;
+}
+
+@font-face {
+    font-family: 'BoysDontCry';
+    src: url("BoysDontCry.otf") ;
+}
+
+@font-face {
+    font-family: 'Blonde';
+    src: url("Blonde.otf") ;
+}
+.box-submit{
+    background: #4aaaa5;
+
+}
+
 
