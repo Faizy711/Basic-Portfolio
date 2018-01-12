@@ -2,41 +2,54 @@
 <html>
    <head>
        <title>Faizan Salman Contact Page</title>
-       <link rel="stylesheet" href="reset.css">
-       <link rel="stylesheet" href="style.css">
+       <link rel="stylesheet" href="assets/css/reset.css">
+       <link rel="stylesheet" href="assets/css/style.css">
    </head>
    <body>
        <!-- Navigation to About Portfolio and Contact info -->
-        <nav class="navigation">
+        <nav>
             <ul>
-                <li><a href="index.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a class="buttons" href="index.html">About</a></li>
+                <li><a class="buttons" href="portfolio.html">Portfolio</a></li>
+                <li><a class="buttons" href="contact.html">Contact</a></li>
             </ul>
         </nav>
         <!-- Header -->
-        <header class="name_header">
+        <header>
             <h1>Faizan Salman</h1>
         </header>
         <!-- Contact -->
-        <div class="contact_me">
-            <h2>Contact</h2>
-            <h3>Name</h3>
-            <figure class="contact_me box-name"></figure>
-            <h3>Email</h3>
-            <figure class="contact_me box-email"></figure>
-            <h3>Message</h3>
-            <figure class="contact_me box-message"></figure>
-            <figure class="contact_me box-submit">Submit</figure>
-        </div>
+        <div class="wrapper">
+            <div class="contact_me">
+                <h2 class="teal_header">Contact Me</h2>
+                <form action="contact.html">
+                    Name<br>
+                    <input type="text" name="firstname" value="Name"><br>
+                    Email<br>
+                    <input type="text" name="lastname" value="example@email.com"><br>
+                    Message<br>
+                    <input type="text" name="lastname" value="Message"><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
         <!-- Connect Section -->
-        <div class="connect">
-            <h2>Connect with Me</h2>
-            <ol>
-                <li><a href="#">some logo</a></li>
-                <li><a href="#">some logo2</a></li>
-                <li><a href="#">some logo3</a></li>
-            </ol>
+            <aside class="wrapper2">
+                <scetion class="connect">
+                    <h2 class="teal_header">Connect with Me</h2>
+                </br></br>
+                    <ol>
+                        <li><a  href="#">
+                            <img src="https://pbs.twimg.com/profile_images/614583061448036352/CBpFkPaz_400x400.png" alt="LinkedIn" style="width:42px;height:42px;border:0;">
+                        </a></li>
+                        <li><a  href="#">
+                            <img src="http://cdn.mysitemyway.com/icons-watermarks/flat-rounded-square-white-on-black/foundation/foundation_social-github/foundation_social-github_flat-rounded-square-white-on-black_512x512.png" alt="Github" style="width:42px;height:42px;border:0;">
+                        </a></li>
+                        <li><a  href="#">
+                            <img src="https://i.stack.imgur.com/CE5lz.png" alt="StackOverFlow" style="width:42px;height:42px;border:0;">
+                        </a></li>
+                    </ol>
+                </section>
+            </aside>   
         </div>
         <!-- Footer -->
         <footer class="footer">
